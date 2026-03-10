@@ -123,5 +123,3 @@ body:
       description: "Any other details the TC should know when reviewing this application."
     validations:
       required: false
-
-<-- Any other information the TC should consider -->
