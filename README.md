@@ -1,2 +1,2 @@
 # project-proposals
-Contribute a project to the Agentic AI Foundation
+Propose a project to contribute to the Agentic AI Foundation.
