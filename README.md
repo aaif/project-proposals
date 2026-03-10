@@ -4,17 +4,17 @@
 
 This repository is designed to support open source projects applying to become **foundation-hosted projects** under the Agentic AI Foundation (AAIF). It outlines the intake process, requirements, and governance path for projects seeking Growth or Impact status within the AAIF landscape.
 
-Please review the [Foundation-Hosted Project Lifecycle documentation](https://github.com/pytorch-fdn/foundation-hosted-project/blob/main/governance/foundation-hosted-project-process.md) before submitting an application.
+Please review the [Project Lifecycle documentation](https://github.com/aaif/project-proposals/blob/main/governance/project-lifecycle-policy.md) before submitting an application.
 
 ---
 
 ## How to Apply
 
-1. Open a new [Foundation-Hosted Project Application](https://github.com/pytorch-fdn/foundation-hosted/issues/new?assignees=&labels=New&projects=&template=application.yml&title=%3CProject+Name%3E) using the linked issue form.
+1. Open a new [Project Proposal Application](https://github.com/aaif/project-proposals/issues/new?template=project-proposal.yml) using the linked issue form.
 2. Complete all required sections.
 3. Submit the issue.
 
-Your application will appear on the [Foundation Project Board](https://github.com/orgs/pytorch-fdn/projects/10/views/1), where its progress can be tracked.
+Your application will appear on the [Project Proposals Board](https://github.com/orgs/aaif/projects/1/views/1), where its progress can be tracked.
 
 ---
 
