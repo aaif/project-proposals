@@ -6,7 +6,7 @@ labels:
 
 name: Project Proposal Application
 description: Apply for your project to become an official Project under the Agentic AI Foundation.
-title: "[Project Proposal]<Project Name> "
+title: "[Project Proposal] <ADD Project Name> "
 labels: [New]
 assignees:
   - christinaharter
