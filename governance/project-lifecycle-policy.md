@@ -1,5 +1,5 @@
 # **Agentic AI Foundation Project Lifecycle Policy**
-**Adopted March 13, 2026**
+**Adopted March 16, 2026**
 
 ---
 
