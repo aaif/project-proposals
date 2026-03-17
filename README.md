@@ -22,7 +22,6 @@ Your application will appear on the [Project Proposals Board](https://github.com
 
 Once submitted:
 - Your application is placed in the backlog for triage.
-- A **voting member of the Techncial Committee (TC)** must sponsor your project.
 - You’ll prepare a review presentation, with help from AAIF staff.
 - Your project will be scheduled for a future TC meeting, where it will be reviewed.
 
@@ -60,4 +59,4 @@ Projects that are not approved may reapply after addressing the issues raised du
 
 ## Questions?
 
-For questions or support, please reach out to AAIF staff via the [AAIF Discord Server](https://discord.gg/9zTwngHAMy) or contact your TC sponsor directly.
+For questions or support, please reach out to AAIF staff via the [AAIF Discord Server](https://discord.gg/9zTwngHAMy) or at support@aaif.io. 
