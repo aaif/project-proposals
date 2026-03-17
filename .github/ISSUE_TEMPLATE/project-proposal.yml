@@ -96,13 +96,6 @@ body:
     validations:
       required: true
 
-  - type: input
-    attributes:
-      label: Sponsor TC Member
-      description: "Name of the TC member sponsoring this application."
-    validations:
-      required: true
-
   - type: textarea
     attributes:
       label: Roadmap
