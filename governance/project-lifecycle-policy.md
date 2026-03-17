@@ -1,5 +1,5 @@
 # **Agentic AI Foundation Project Lifecycle Policy**
-**Adopted March 16, 2026**
+**Effective: March 18, 2026**
 
 ---
 
@@ -71,7 +71,7 @@ Projects will be required to: (1) have their existing project host transfer proj
 * Projects are required to present their proposal at a Technical Committee meeting arranged by the project's TC sponsor.  
 * The Technical Committee may ask for changes to bring the project into better alignment with the AAIF.  
 * The project will need to make these changes in order to progress further.  
-* Projects are accepted via an absolute majority vote (\>50%) of all members of the Technical Committee, and admission of the project into the AAIF is subject to approval by the Governing Board.  
+* Projects receiving an absolute majority vote (\>50%) of all members of the Technical Committee are referred to the Governing Board for approval.
 * The Technical Committee will determine the appropriate initial stage for an accepted project. The project can apply for a different stage via the review process upon meeting the stage’s requirements.   
 * Any acceptance is subject to the project host executing and delivering to the LF the executed project contribution agreement, and no public announcement will be made by AAIF of the acceptance of any project until governance for the project has been finalized and the contribution agreement duly executed and accepted by the LF.
 
@@ -108,7 +108,7 @@ To be considered for Growth Stage, the project must satisfy the following criter
 * Document that it is being used successfully in production at a wide scale, and are in the Technical Committee’s judgment,  in quality and scope to the AAIF’s mission.  
 * Demonstrate an appropriate ongoing flow of commits and merged contributions.  
 * Demonstrate that the current level of community participation is sufficient to meet the goals outlined in the growth plan.  
-* Receive an absolute majority vote (\>50%) of the Technical Committee to be admitted to Growth Stage, subject to final approval of the Governing Board by an absolute majority vote (\>50%) of the Governing Board.
+* Receive an absolute majority vote (\>50%) of the Technical Committee to be admitted to Growth Stage, subject to final approval of the Governing Board.
 
 Since these metrics can vary significantly depending on a project's type, scope, and size, the Technical Committee has final judgment on the level of activity that is adequate to meet these criteria.
 
@@ -141,7 +141,7 @@ To graduate from Growth status, or for a new project to join as an Impact projec
 * Explicitly define a process to make changes to the project’s governance, committer acceptance process and a means by which one may become a core maintainer. This is preferably laid out in a GOVERNANCE.md file and references a CONTRIBUTING.md and OWNERS.md file showing the current and emeritus committers.  
 * If the project is a Growth project, then other metrics as defined by the applying Project during the application process.  
 * For projects entering as an Impact stage project, a growth plan is not required.  
-* Receive an absolute majority vote (\>50%) of the Technical Committee to be admitted to Impact Stage, subject to final approval of the Governing Board by absolute majority vote (\>50%) of the Governing Board.  
+* Receive an absolute majority vote (\>50%) of the Technical Committee to be admitted to Impact Stage, subject to final approval of the Governing Board.
 
 ## Emeritus Stage
 
@@ -160,7 +160,7 @@ Projects in this stage are have little to no activity. Their maintainers may inf
 
 ### Acceptance Criteria
 
-Projects may be transitioned to Emeritus status via an absolute majority vote (\>50%) from the Technical Committee or with approval from the Governing Board by absolute majority vote (\>50%) of the Governing Board.
+Projects may be transitioned to Emeritus status via an absolute majority vote (\>50%) from the Technical Committee or with approval from the Governing Board.
 
 ---
 
