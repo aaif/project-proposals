@@ -34,8 +34,8 @@ Projects should monitor their submission and respond promptly to comments or req
 Project applications are reviewed and voted on by the **AAIF Technical Committee (TC)**.
 
 - Projects are reviewed during scheduled TC meetings.
-- To be accepted, a project must receive **an absolute majority vote (\>50%)** of all members of the Technical Committee, and is subject to final approval by the Governing Board.
 - The TC will classify the project as either a **Growth** or **Impact** project.
+- To be accepted, a project must receive **an absolute majority vote (\>50%)** of all members of the Technical Committee, and is then referred to the Governing Board for final approval.
 
 ---
 
