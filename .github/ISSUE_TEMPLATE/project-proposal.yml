@@ -33,7 +33,7 @@ body:
       placeholder: "What the project does, why it is valuable, its origin and history."
     validations:
       required: true
- 
+
   - type: textarea
     attributes:
       label: Alignment with AAIF Mission
