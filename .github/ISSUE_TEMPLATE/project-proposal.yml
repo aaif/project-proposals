@@ -28,19 +28,41 @@ body:
 
   - type: textarea
     attributes:
-      label: Project Summary
-      description: "Provide a one-line summary of the project."
-      placeholder: "A short, clear summary (max one sentence)"
+      label: Project Description
+      description: "Describe what the project does, why it is valuable, origin, and history."
+      placeholder: "What the project does, why it is valuable, its origin and history."
+    validations:
+      required: true
+ 
+  - type: textarea
+    attributes:
+      label: Alignment with AAIF Mission
+      description: "Describe how the project aligns with AAIF's mission."
     validations:
       required: true
 
-  - type: textarea
+    - type: textarea
     attributes:
-      label: Project Description
-      description: "Describe what the project does, who it serves, and why it should be hosted by the AAIF Foundation."
-      placeholder: "What the project does, why it matters, and how it aligns with AAIF's mission."
+      label: Relation to Existing AAIF Projects
+      description: "Describe how the project relates to existing AAIF projects."
     validations:
       required: true
+
+    - type: textarea
+    attributes:
+      label: Example Use Cases and Evidence of Adoption
+      description: |
+        Describe real-world usage.
+        Provide evidence of production deployments in at least two different organizations.
+    validations:
+      required: true
+
+  - type: input
+    attributes:
+      label: Technical Committee Sponsor (if identified)
+      description: "While not required, a Technical Committee sponsor helps mentor projects."
+    validations:
+      required: false
 
   - type: input
     attributes:
@@ -52,22 +74,15 @@ body:
   - type: input
     attributes:
       label: License
-      description: "Must be Apache 2.0, MIT, or BSD-3-Clause."
+      description: "Name of the OSI-approved permissive license under which the project is released."
       placeholder: "Example: Apache 2.0"
-    validations:
-      required: true
-
-  - type: input
-    attributes:
-      label: Website URL
-      description: "URL of the project website or documentation portal."
     validations:
       required: true
 
   - type: textarea
     attributes:
       label: Governance Model
-      description: "Link to or description of the project's current governance model (e.g., LF Minimum Viable Governance)."
+      description: "Link to or provide a description of the project's current governance model (e.g., LF Minimum Viable Governance)."
     validations:
       required: true
 
@@ -82,10 +97,22 @@ body:
 
   - type: textarea
     attributes:
-      label: Production Adoption
-      description: |
-        Describe real-world usage.
-        Provide evidence of production deployments in at least two different organizations.
+      label: Public-Facing Contribution Process for Specifications
+      description: "Link to or provide a description of the project's current contribution process for specifications."
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Publicly Accessible Issue Tracker
+      description: "Link to the project's publicly accessible issue tracker."
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: External Project Dependencies 
+      description: "Please list any external project dependencies, including licenses for those projects."
     validations:
       required: true
 
@@ -93,6 +120,13 @@ body:
     attributes:
       label: Maintainers & Contributors
       description: "Provide names, GitHub handles, and affiliations for at least 2 core maintainers from different organizations and at least 10 contributors."
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Leadership Team & Decision Process
+      description: "Please provide a list of the project's leadership team and a description of their decision-making process."
     validations:
       required: true
 
@@ -106,13 +140,48 @@ body:
   - type: textarea
     attributes:
       label: Security
-      description: "Has the project received a Silver badge or better from OpenSSF Best Practices? Please link the badge or status."
+      description: "Has the project received a Silver badge or better from OpenSSF Best Practices? If so, please link the badge or status."
+    validations:
+      required: true
+
+  - type: input
+    attributes:
+      label: Website URL
+      description: "URL of the project website or documentation portal."
     validations:
       required: true
 
   - type: textarea
     attributes:
+      label: Documented Governance Practices (if any)
+      description: "Link to any documented governance practices, if any (i.e. GOVERNANCE.md)."
+    validations:
+      required: false
+
+  - type: input
+    attributes:
+      label: Links to Social Media Accounts
+      description: "Please link to any existing social media accounts, if any."
+    validations:
+      required: false
+
+  - type: textarea
+    attributes:
+      label: Details of Existing Financial Sponsorship
+      description: "Please provide details of existing financial sponsorship, if any."
+    validations:
+      required: false
+
+  - type: textarea
+    attributes:
+      label: Infrastructure Needs or Requests
+      description: "Please provide any infrastructure needs or requests, if any."
+    validations:
+      required: false
+
+  - type: textarea
+    attributes:
       label: Additional Information
-      description: "Any other details the TC should know when reviewing this application."
+      description: "Any other details the Technical Committee should know when reviewing this application."
     validations:
       required: false
