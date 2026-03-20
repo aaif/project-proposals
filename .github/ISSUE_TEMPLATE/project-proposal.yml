@@ -41,7 +41,7 @@ body:
     validations:
       required: true
 
-    - type: textarea
+  - type: textarea
     attributes:
       label: Relation to Existing AAIF Projects
       description: "Describe how the project relates to existing AAIF projects."
