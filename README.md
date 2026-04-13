@@ -4,7 +4,7 @@
 
 This repository is designed to support open source projects applying to become **foundation-hosted projects** under the Agentic AI Foundation (AAIF). It outlines the intake process, requirements, and governance path for projects seeking Growth or Impact status within the AAIF landscape.
 
-Please review the [Project Lifecycle documentation](https://github.com/aaif/project-proposals/blob/main/governance/project-lifecycle-policy.md) before submitting an application.
+**Please first review the [Project Lifecycle documentation](https://github.com/aaif/project-proposals/blob/main/governance/project-lifecycle-policy.md) before submitting an application. Projects not meeting the necessary requirements will not be accepted.**
 
 ---
 
