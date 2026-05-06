@@ -1,17 +1,11 @@
+---
 name: Project Proposal
-description: Apply for your project to become an official Project (Growth or Impact) under the Agentic AI Foundation
-title: "[Project Proposal]: "
-labels:
-  - new
-
-name: Project Proposal Application
-description: Apply for your project to become an official Project under the Agentic AI Foundation.
-title: "[Project Proposal] <ADD Project Name> "
-labels: [New]
+description: Apply for your project to become an official Project (Growth or Impact) under the Agentic AI Foundation (AAIF)
+title: "[Project Proposal] <Project Name> "
+labels: ["New"]
 assignees:
   - christinaharter
   - maniksurtani
-
 body:
   - type: markdown
     attributes:
@@ -19,6 +13,21 @@ body:
         > Thanks for applying to become an AAIF Hosted Project. This designation is for open source projects that demonstrate maturity, wide adoption, strong community engagement, and alignment with the AAIF ecosystem.
 
         Please complete the application below to help the AAIF Technical Committee (TC) evaluate your readiness for foundation hosting.
+
+
+        Based on the information in this form, a Contribution Agreement will be sent to the contacts provided. **This must be signed before the Governing Board (GB) can complete a vote on whether to accept the project.** It will be countersigned by the Linux Foundation only after a successful vote.
+
+        > [!CAUTION]
+        > Both the TC and GB MUST vote to approve your application and a Contribution Agreement MUST be signed before your project can be considered an official AAIF project. You can not represent your project as "donated" or "contributed" until those steps are completed.
+
+        <br />
+
+        ---
+
+
+        # Project Proposal Form
+
+        Please fill out the form below as completely as possible. This information will help facilitate the review by the AAIF TC and GB.
 
   - type: input
     attributes:
@@ -166,6 +175,15 @@ body:
     validations:
       required: false
 
+  - type: checkboxes
+    id: trademark
+    attributes:
+      label: Trademark and accounts
+      description: By submitting this issue, you understand that if accepted, all project trademarks (such as the project name) and accounts will be donated to the AAIF. For more information please refer to Section 8 of the [AAIF Foundation Charter](https://github.com/aaif/foundation/blob/main/charter.md).
+      options:
+        - label: If the project is accepted, I agree to donate all project trademarks and accounts to the AAIF.
+          required: true
+
   - type: textarea
     attributes:
       label: Details of Existing Financial Sponsorship
@@ -186,3 +204,34 @@ body:
       description: "Any other details the Technical Committee should know when reviewing this application."
     validations:
       required: false
+
+
+  - type: markdown
+    attributes:
+      value: |
+        <br />
+
+        ## :envelope: Contact information
+
+        Provide information about who to contact with questions about the project and who will sign the Contribution Agreement.
+
+  - type: textarea
+    attributes:
+      label: Application contact name(s) and email(s)
+      description: Provide the name(s) and email address(es) of individuals who should be contacted regarding this application. If more than one nam and email is provided, please comma separate them.
+      placeholder: Comma-separate multiple emails here
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Contributing or sponsoring entity signatory information
+      description: Provide the email address(es) of the project's contributing or sponsoring company/organization or group of individuals. This is the person or people that would sign the Contribution Agreement which assigns trademarks (if any), domains, and accounts to the Linux Foundation.
+      value: "If an organization:\n| Name | Address | Type (e.g., Delaware corporation) | Signatory name and title | Email address |\n|-----------|-----------|-----------|-----------|-----------|\n|            |            |            |            |            |\n\nOr, if an individual or individual(s):\n| Name | Country | Email address |\n|-----------|-----------|-----------|\n|            |            |            |\n|            |            |            |\n|            |            |            |"
+    validations:
+      required: true
+
+  - type: markdown
+    attributes:
+      value: |
+        <br />
