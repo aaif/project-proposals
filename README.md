@@ -57,6 +57,13 @@ Projects that are not approved may reapply after addressing the issues raised du
 
 ---
 
+## On AAIF Membership 
+
+* There is no requirement that a project is also a *member organization* of the AAIF. Though it is commonly the case that projects are contributed by member organizations, this isn't a rule. 
+* Similarly, having a project accepted does not grant the contributor membership status (such as Silver/Gold/Platinum) at the AAIF, nor a governing board seat.
+
+---
+
 ## Questions?
 
 For questions or support, please reach out to AAIF staff via the [AAIF Discord Server](https://discord.gg/9zTwngHAMy) or at support@aaif.io. 
