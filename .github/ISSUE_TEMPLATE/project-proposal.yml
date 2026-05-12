@@ -143,16 +143,16 @@ body:
   - type: textarea
     attributes:
       label: Roadmap
-      description: "Link to or provide a 12-month public roadmap for the project."
+      description: "Link to or provide a 12-month public roadmap for the project, if available."
     validations:
-      required: true
+      required: false
 
   - type: textarea
     attributes:
       label: Security
-      description: "Has the project received a Silver badge or better from OpenSSF Best Practices? If so, please link the badge or status."
+      description: "If the project has an OpenSSF Best Practices badge, link it here. Otherwise, describe the project's current security posture."
     validations:
-      required: true
+      required: false
 
   - type: input
     attributes:
