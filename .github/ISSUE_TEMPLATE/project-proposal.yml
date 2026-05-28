@@ -218,7 +218,7 @@ body:
   - type: textarea
     attributes:
       label: Application contact name(s) and email(s)
-      description: Provide the name(s) and email address(es) of individuals who should be contacted regarding this application. If more than one nam and email is provided, please comma separate them.
+      description: Provide the name(s) and email address(es) of individuals who should be contacted regarding this application. If more than one name and email is provided, please comma separate them.
       placeholder: Comma-separate multiple emails here
     validations:
       required: true
