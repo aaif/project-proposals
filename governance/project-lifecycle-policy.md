@@ -151,12 +151,12 @@ Emeritus projects are projects which the TC or maintainers feel have reached end
 
 ### Examples
 
-1. Projects that are are no longer maintained.  
+1. Projects that are no longer maintained.  
 2. Projects that do not plan to release major versions in the future.
 
 ### Expectations
 
-Projects in this stage are have little to no activity. Their maintainers may infrequently monitor their repositories and may only push updates to address security issues, if at all. Emeritus projects should clearly state their status in their repo’s README.md and what users or contributors can expect regarding response times or support. If there is an alternative project the maintainers recommend, it should be listed as well. The foundation will continue to hold the IP and any trademarks and domains, but the project does not draw on foundation resources. 
+Projects in this stage have little to no activity. Their maintainers may infrequently monitor their repositories and may only push updates to address security issues, if at all. Emeritus projects should clearly state their status in their repo’s README.md and what users or contributors can expect regarding response times or support. If there is an alternative project the maintainers recommend, it should be listed as well. The foundation will continue to hold the IP and any trademarks and domains, but the project does not draw on foundation resources. 
 
 ### Acceptance Criteria
 
