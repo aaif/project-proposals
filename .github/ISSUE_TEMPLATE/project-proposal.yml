@@ -12,8 +12,9 @@ body:
       value: |
         > Thanks for applying to become an AAIF Hosted Project. This designation is for open source projects that demonstrate maturity, wide adoption, strong community engagement, and alignment with the AAIF ecosystem.
 
+        Curious to know more about what we're looking for in a project? Check out the guide on [How to Submit your Project to the AAIF](https://aaif.io/blog/how-to-submit-your-project-to-the-aaif/) for more details.
+        
         Please complete the application below to help the AAIF Technical Committee (TC) evaluate your readiness for foundation hosting.
-
 
         Based on the information in this form, a Contribution Agreement will be sent to the contacts provided. **This must be signed before the Governing Board (GB) can complete a vote on whether to accept the project.** It will be countersigned by the Linux Foundation only after a successful vote.
 
