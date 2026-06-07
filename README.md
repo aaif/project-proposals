@@ -10,9 +10,10 @@ This repository is designed to support open source projects applying to become *
 
 ## How to Apply
 
-1. Open a new [Project Proposal Application](https://github.com/aaif/project-proposals/issues/new?template=project-proposal.yml) using the linked issue form.
-2. Complete all required sections.
-3. Submit the issue.
+1. Check out the guide on [How to Submit your Project to the AAIF](https://aaif.io/blog/how-to-submit-your-project-to-the-aaif/) for more details on what we're looking for in a project.
+2. Open a new [Project Proposal Application](https://github.com/aaif/project-proposals/issues/new?template=project-proposal.yml) using the linked issue form.
+3. Complete all required sections.
+4. Submit the issue.
 
 Your application will appear on the [Project Proposals Board](https://github.com/orgs/aaif/projects/1/views/1), where its progress can be tracked.
 
