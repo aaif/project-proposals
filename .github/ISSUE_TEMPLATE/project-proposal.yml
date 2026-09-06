@@ -1,6 +1,6 @@
 ---
 name: Project Proposal
-description: Apply for your project to become an official Project (Growth or Impact) under the Agentic AI Foundation (AAIF)
+description: Apply for your project to become an official Project (Sandbox, Growth, or Impact) under the Agentic AI Foundation (AAIF)
 title: "[Project Proposal] <Project Name> "
 labels: ["New"]
 assignees:
@@ -10,7 +10,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        > Thanks for applying to become an AAIF Hosted Project. This designation is for open source projects that demonstrate maturity, wide adoption, strong community engagement, and alignment with the AAIF ecosystem.
+        > Thanks for applying to become an AAIF Hosted Project. This designation is for open source projects that demonstrate maturity, wide adoption, and strong community engagement for Growth and Impact level projects, or strong community momentum filling a critical need for Sandbox level porojects, as well alignment with the AAIF ecosystem.
 
         Curious to know more about what we're looking for in a project? Check out the guide on [How to Submit your Project to the AAIF](https://aaif.io/blog/how-to-submit-your-project-to-the-aaif/) for more details.
         
@@ -64,7 +64,7 @@ body:
       label: Example Use Cases and Evidence of Adoption
       description: |
         Describe real-world usage.
-        Provide evidence of production deployments in at least two different organizations.
+        Provide evidence of production deployments. We look for at least two different organizations for Growth and Impact stage projects.
     validations:
       required: true
 
@@ -130,7 +130,7 @@ body:
   - type: textarea
     attributes:
       label: Maintainers & Contributors
-      description: "Provide names, GitHub handles, and affiliations for at least 2 core maintainers from different organizations and at least 10 contributors."
+      description: "Provide names, GitHub handles, and affiliations of project maintainers. We look for at least 2 core maintainers from different organizations and at least 10 contributors for Growth and Impact level projects."
     validations:
       required: true
 
