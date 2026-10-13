@@ -180,7 +180,7 @@ body:
     id: trademark
     attributes:
       label: Trademark and accounts
-      description: By submitting this issue, you understand that if accepted, all project trademarks (such as the project name) and accounts will be donated to the AAIF. For more information please refer to Section 8 of the [AAIF Foundation Charter](https://github.com/aaif/foundation/blob/main/charter.md).
+      description: By submitting this issue, you understand that if accepted, all project trademarks (such as the project name) and accounts will be donated to the AAIF. For more information please refer to Section 8 of the [AAIF Foundation Charter](https://github.com/aaif/foundation/blob/main/foundation-charter.pdf).
       options:
         - label: If the project is accepted, I agree to donate all project trademarks and accounts to the AAIF.
           required: true
