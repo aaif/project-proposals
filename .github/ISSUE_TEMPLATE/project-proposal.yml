@@ -10,16 +10,18 @@ body:
   - type: markdown
     attributes:
       value: |
-        > Thanks for applying to become an AAIF Hosted Project. This designation is for open source projects that demonstrate maturity, wide adoption, and strong community engagement for Growth and Impact level projects, or strong community momentum filling a critical need for Sandbox level porojects, as well alignment with the AAIF ecosystem.
+        > Thanks for applying to contribute your project to the Agentic AI Foundation (AAIF).
 
-        Curious to know more about what we're looking for in a project? Check out the guide on [How to Submit your Project to the AAIF](https://aaif.io/blog/how-to-submit-your-project-to-the-aaif/) for more details.
-        
+        Before applying, read the [Project Lifecycle Policy](https://github.com/aaif/technical-committee/blob/main/governance/project-lifecycle-policy.md) for lifecycle stages and admission criteria, and the [Project Proposal Process](https://github.com/aaif/technical-committee/blob/main/project_proposal_process.md) for information on review, voting, legal paperwork, and onboarding.
+
+        For practical submission advice, see [How to Submit your Project to the AAIF](https://aaif.io/blog/how-to-submit-your-project-to-the-aaif/).
+
         Please complete the application below to help the AAIF Technical Committee (TC) evaluate your readiness for foundation hosting.
 
-        Based on the information in this form, a Contribution Agreement will be sent to the contacts provided. **This must be signed before the Governing Board (GB) can complete a vote on whether to accept the project.** It will be countersigned by the Linux Foundation only after a successful vote.
+        AAIF staff will coordinate the contribution agreement and technical charter with the contacts provided. Follow the Project Proposal Process for the required paperwork and approval sequence.
 
         > [!CAUTION]
-        > Both the TC and GB MUST vote to approve your application and a Contribution Agreement MUST be signed before your project can be considered an official AAIF project. You can not represent your project as "donated" or "contributed" until those steps are completed.
+        > Your project is not admitted until all conditions in the approval gate of the [Project Proposal Process](https://github.com/aaif/technical-committee/blob/main/project_proposal_process.md) are met. Do not announce acceptance or represent your project as "donated" or "contributed" before then.
 
         <br />
 
@@ -28,7 +30,7 @@ body:
 
         # Project Proposal Form
 
-        Please fill out the form below as completely as possible. This information will help facilitate the review by the AAIF TC and GB.
+        Please fill out the form below as completely as possible. This information will help facilitate the review by the AAIF TC and Governing Board (GB).
 
   - type: input
     attributes:
@@ -44,6 +46,18 @@ body:
       placeholder: "What the project does, why it is valuable, its origin and history."
     validations:
       required: true
+
+  - type: dropdown
+    id: preferred_stage
+    attributes:
+      label: Preferred Lifecycle Stage (if known)
+      description: "Optional preference. Review the Project Lifecycle Policy before selecting a stage; the TC recommends the initial stage and the GB confirms it on approval."
+      options:
+        - Sandbox
+        - Growth
+        - Impact
+    validations:
+      required: false
 
   - type: textarea
     attributes:
@@ -63,15 +77,16 @@ body:
     attributes:
       label: Example Use Cases and Evidence of Adoption
       description: |
-        Describe real-world usage.
-        Provide evidence of production deployments. We look for at least two different organizations for Growth and Impact stage projects.
+        Describe real-world usage and link to adoption evidence appropriate to the project's lifecycle stage.
+        For early-stage projects, describe intended users and early external interest, or explain why the project matters before adoption.
+        See the Project Lifecycle Policy for the adoption requirements of each stage.
     validations:
       required: true
 
   - type: input
     attributes:
       label: Technical Committee Sponsor (if identified)
-      description: "While not required, a Technical Committee sponsor helps mentor projects."
+      description: "Name a TC sponsor if one has been identified. See the Project Lifecycle Policy for stage-specific sponsor and mentorship requirements."
     validations:
       required: false
 
@@ -122,7 +137,7 @@ body:
 
   - type: textarea
     attributes:
-      label: External Project Dependencies 
+      label: External Project Dependencies
       description: "Please list any external project dependencies, including licenses for those projects."
     validations:
       required: true
@@ -130,7 +145,7 @@ body:
   - type: textarea
     attributes:
       label: Maintainers & Contributors
-      description: "Provide names, GitHub handles, and affiliations of project maintainers. We look for at least 2 core maintainers from different organizations and at least 10 contributors for Growth and Impact level projects."
+      description: "Provide names, GitHub handles, and affiliations of active maintainers and contributors, with links to contribution activity. See the Project Lifecycle Policy for stage-specific community and maintainership requirements."
     validations:
       required: true
 
@@ -142,11 +157,18 @@ body:
       required: true
 
   - type: textarea
+    id: stage_evidence
     attributes:
-      label: Roadmap
-      description: "Link to or provide a 12-month public roadmap for the project, if available."
+      label: Lifecycle Stage Evidence
+      description: |
+        Link to the supporting documents required by the Project Lifecycle Policy for the stage you believe the project meets:
+        - Sandbox: the project's short written thesis covering intended users, what would justify Growth graduation, and early external interest or a credible case for the project's importance before adoption.
+        - Growth: the project's growth plan.
+        - Impact: the project's public roadmap, release processes, and governance documentation. A growth plan is not required for direct Impact entry.
+        If you have not selected a preferred stage, describe which stage criteria the project currently meets.
+        You may link to evidence provided elsewhere in this application. Include a public roadmap if available.
     validations:
-      required: false
+      required: true
 
   - type: textarea
     attributes:
@@ -180,9 +202,9 @@ body:
     id: trademark
     attributes:
       label: Trademark and accounts
-      description: By submitting this issue, you understand that if accepted, all project trademarks (such as the project name) and accounts will be donated to the AAIF. For more information please refer to Section 8 of the [AAIF Foundation Charter](https://github.com/aaif/foundation/blob/main/charter.md).
+      description: By submitting this issue, you understand that admission requires transfer of project trademarks and other required assets to the Linux Foundation under the contribution agreement. For more information please refer to Section 8 of the [AAIF Foundation Charter](https://github.com/aaif/foundation/blob/main/foundation-charter.pdf).
       options:
-        - label: If the project is accepted, I agree to donate all project trademarks and accounts to the AAIF.
+        - label: If the project is accepted, I agree to transfer all project trademarks and accounts to the Linux Foundation under the contribution agreement.
           required: true
 
   - type: textarea

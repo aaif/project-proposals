@@ -2,9 +2,12 @@
 
 ![AAIF Logo](https://raw.githubusercontent.com/aaif/.github/main/profile/assets/AAIF_Primary_Logo_Black_on_White.jpg)
 
-This repository is designed to support open source projects applying to become **foundation-hosted projects** under the Agentic AI Foundation (AAIF). It outlines the intake process, requirements, and governance path for projects seeking Growth or Impact status within the AAIF landscape.
+This repository is the application and tracking point for open source projects seeking hosting under the Agentic AI Foundation (AAIF).
 
-**Please first review the [Project Lifecycle documentation](https://github.com/aaif/project-proposals/blob/main/governance/project-lifecycle-policy.md) before submitting an application. Projects not meeting the necessary requirements will not be accepted.**
+Before applying, review the authoritative documents maintained by the Technical Committee (TC):
+
+- [Project Lifecycle Policy](https://github.com/aaif/technical-committee/blob/main/governance/project-lifecycle-policy.md) for lifecycle stages, admission criteria, and ongoing expectations.
+- [Project Proposal Process](https://github.com/aaif/technical-committee/blob/main/project_proposal_process.md) for review, voting, legal paperwork, and onboarding.
 
 ---
 
@@ -21,22 +24,15 @@ Your application will appear on the [Project Proposals Board](https://github.com
 
 ## What's Next?
 
-Once submitted:
-- Your application is placed in the backlog for triage.
-- You’ll prepare a review presentation, with help from AAIF staff.
-- Your project will be scheduled for a future TC meeting, where it will be reviewed.
+AAIF staff triage your application, and the TC reviews it through questions and discussion on the GitHub issue. A live presentation may be requested.
 
 Projects should monitor their submission and respond promptly to comments or requests from the TC or community.
 
 ---
 
-## Review and Voting
+## Review and Admission
 
-Project applications are reviewed and voted on by the **AAIF Technical Committee (TC)**.
-
-- Projects are reviewed during scheduled TC meetings.
-- The TC will classify the project as either a **Growth** or **Impact** project.
-- To be accepted, a project must receive **an absolute majority vote (\>50%)** of all members of the Technical Committee, and is then referred to the Governing Board for final approval.
+The [Project Proposal Process](https://github.com/aaif/technical-committee/blob/main/project_proposal_process.md) describes the approval gates and responsibilities of the TC, Governing Board, and Linux Foundation. A submission or TC recommendation alone does not make a project an official AAIF project. All admission requirements must be complete before acceptance is announced.
 
 ---
 
@@ -54,7 +50,7 @@ Project applications are reviewed and voted on by the **AAIF Technical Committee
 
 ## Reapplication
 
-Projects that are not approved may reapply after addressing the issues raised during review. Reapplication is permitted **as soon as 3 months** after a declined vote if there has been tangible progress.
+See the [Project Proposal Process](https://github.com/aaif/technical-committee/blob/main/project_proposal_process.md) for reapplication timing and conditions. Address the feedback recorded on your issue before reapplying.
 
 ---
 
